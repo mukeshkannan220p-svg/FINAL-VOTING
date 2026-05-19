@@ -48,7 +48,7 @@ export default function RegisterPage() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 p-4">
       <form onSubmit={submit} className="glass w-full max-w-md rounded-2xl p-8">
         <h2 className="text-2xl font-bold">Create Voter Account</h2>
-        <p className="mb-6 mt-1 text-sm text-slate-400">Register to vote securely with CloudVote</p>
+        <p className="mb-6 mt-1 text-sm text-slate-400">Register to vote securely with Secure Web-Based Voting System</p>
         <input className="mb-3 w-full rounded-xl border border-white/10 bg-slate-900/70 px-4 py-3" placeholder="Full Name" required onChange={(e) => setForm({ ...form, name: e.target.value })} />
         <input className="mb-3 w-full rounded-xl border border-white/10 bg-slate-900/70 px-4 py-3" placeholder="ID Number" required onChange={(e) => setForm({ ...form, id_number: e.target.value })} />
         <input className="mb-3 w-full rounded-xl border border-white/10 bg-slate-900/70 px-4 py-3" placeholder="Email" type="email" required onChange={(e) => setForm({ ...form, email: e.target.value })} />

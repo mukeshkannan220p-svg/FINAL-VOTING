@@ -32,7 +32,7 @@ export default function LoginPage({ admin = false }) {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 p-4">
       <form onSubmit={submit} className="glass w-full max-w-md rounded-2xl p-8">
         <h2 className="text-2xl font-bold">{admin ? "Admin Login" : "Voter Login"}</h2>
-        <p className="mb-6 mt-1 text-sm text-slate-400">Access your CloudVote account</p>
+        <p className="mb-6 mt-1 text-sm text-slate-400">Access your Secure Web-Based Voting System account</p>
         <input className="mb-3 w-full rounded-xl border border-white/10 bg-slate-900/70 px-4 py-3" placeholder="Email" type="email" required onChange={(e) => setForm({ ...form, email: e.target.value })} />
         <input className="mb-3 w-full rounded-xl border border-white/10 bg-slate-900/70 px-4 py-3" placeholder="Password" type="password" required onChange={(e) => setForm({ ...form, password: e.target.value })} />
         {error ? <p className="mb-3 text-sm text-rose-300">{error}</p> : null}

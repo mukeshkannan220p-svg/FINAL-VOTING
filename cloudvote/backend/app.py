@@ -30,7 +30,7 @@ def create_app():
 
     @app.get("/health")
     def health():
-        return jsonify({"status": "ok", "service": "CloudVote API"})
+        return jsonify({"status": "ok", "service": "Secure Web-Based Voting System API"})
 
     @app.errorhandler(404)
     def not_found(_):
@@ -49,7 +49,7 @@ def seed_data():
         return
 
     admin = User(
-        name="CloudVote Admin",
+        name="Secure Web-Based Voting System Admin",
         email=admin_email,
         password=bcrypt.hashpw("Admin@123".encode("utf-8"), bcrypt.gensalt()).decode("utf-8"),
         role="admin",
@@ -95,7 +95,7 @@ def seed_data():
     db.session.flush()
 
     announcement = Announcement(
-        message="Welcome to CloudVote! The Student Council Election 2026 is now live."
+        message="Welcome to Secure Web-Based Voting System! The Student Council Election 2026 is now live."
     )
     db.session.add(announcement)
 
@@ -104,4 +104,4 @@ def seed_data():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", debug=True, port=5050)

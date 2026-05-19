@@ -27,7 +27,7 @@ export default function DashboardLayout() {
       <header className="sticky top-0 z-20 border-b border-white/10 bg-slate-950/70 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
-            <h1 className="text-xl font-bold">CloudVote</h1>
+            <h1 className="text-xl font-bold">Secure Web-Based Voting System</h1>
             <p className="text-xs text-slate-400">Secure Online Voting Platform</p>
           </div>
           <div className="flex items-center gap-3">

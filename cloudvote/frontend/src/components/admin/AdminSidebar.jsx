@@ -31,7 +31,7 @@ export const AdminSidebar = () => {
     <div className="w-64 min-h-screen bg-[#0F172A] border-r border-slate-800 flex flex-col font-sans">
       <div className="p-6">
         <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500">
-          CloudVote Admin
+          Secure Web-Based Voting System Admin
         </h1>
       </div>
 

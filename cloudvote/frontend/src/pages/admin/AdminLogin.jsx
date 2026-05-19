@@ -48,7 +48,7 @@ export const AdminLogin = () => {
               <ShieldCheck className="w-8 h-8" />
             </div>
             <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Admin Portal</h1>
-            <p className="text-slate-400">Sign in to manage CloudVote securely.</p>
+            <p className="text-slate-400">Sign in to manage Secure Web-Based Voting System securely.</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">

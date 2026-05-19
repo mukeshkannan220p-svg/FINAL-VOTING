@@ -1,6 +1,6 @@
-# CloudVote - Online Voting System
+# Secure Web-Based Voting System
 
-CloudVote is a full-stack online voting system built for a cloud computing mini project with real backend APIs, role-based authentication, live election workflows, and database-backed analytics.
+Secure Web-Based Voting System is a full-stack online voting system built for a cloud computing mini project with real backend APIs, role-based authentication, live election workflows, and database-backed analytics.
 
 ## Tech Stack
 
